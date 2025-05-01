@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Booking-form</title>
+</head>
+<body>
+    <h2>Course Booking Form</h2>
+    <form action="https://formspree.io/f/xanoqljd"  method="post">
+        <label for="First Name">First Name:</label>
+        <input type="text" name="First Name" id="First Name">
+        <br><br>
+
+        <label for="Last name">Last name:</label>
+        <input type="text" name="Last name" id="Last Name">
+        <br><br>
+
+        <label for="DOB">DOB:</label>
+        <input type="date" name = "DOB" id="DOB">
+        <br><br>
+
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email">
+        <br><br>
+
+        <label for="Phone"> Phone No:</label>
+        <input type="tel" name="Phone" id = "Phone">
+        <br><br>
+
+        <label for="Date">Expected Joining date:</label>
+        <input type="date" name = "Date" id="Date">
+        <br><br>
+
+        <p>Select Course:</p>
+        <label>
+        <input type="radio" name="Course" value="Frontend"> Frontend
+        <br>
+        <ul> <input type="checkbox" value = "HtML">HTML
+            <input type="checkbox" value = "CSS">CSS
+            <input type="checkbox" value = "Javascript">Javascript
+        </ul>  
+        </label>
+        <label>
+            <input type="radio" name="Course" value="Fullstack with python"> Fullstack with python
+            <br>
+            <ul> 
+                <input type="checkbox" value = "python"> python
+                <input type="checkbox" value = "Frontend">Frontend
+                <input type="checkbox" value = "python"> SQL
+            </ul>  
+        </label>
+            <br><br>
+        <input type="submit" value="Book Course">
+   </form>
+
+
+    
+</body>
+</html>
