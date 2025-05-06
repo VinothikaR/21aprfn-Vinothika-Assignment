@@ -1,0 +1,30 @@
+h2{
+    color: blueviolet;
+    background-color: rgb(155, 247, 155);
+}
+.p1{
+    color: brown;
+    background-color: aqua;
+    font-family:cursive;
+}
+.p2{
+    color: wheat;
+}
+.he span{
+    color: red;    
+}
+.he1 span{
+    background-color: brown;
+}
+.he2{
+    color: pink;
+}
+.he3{
+    background-color: plum;
+}
+.p3{
+    color: yellowgreen;
+}
+.p4{
+    background-color: brown;
+}
