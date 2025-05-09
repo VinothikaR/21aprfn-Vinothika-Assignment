@@ -1,0 +1,94 @@
+h1,.p1,div{
+    color: navy;
+}
+*{
+    margin: 0%;
+}
+input[type="text"]{
+    border-color: plum;
+    background-color: brown;
+}
+input[type="password"] {
+    border-color: red;
+    background-color: yellow;
+}
+input[type="email"]{
+    border-color: blueviolet;
+    background-color: greenyellow;
+}
+/* a[target]{
+    color: maroon;
+    background-color: green;
+}  */
+
+button:hover{
+    color: green;
+    background-color: black;
+}
+
+.w3:hover{
+    color: purple;
+    background-color: brown;
+}
+
+a:link{
+    color: yellowgreen;
+}
+a:visited{
+    color: #ff0000;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    columns: grey;
+}
+a.highlight:hover{
+    color: purple;
+    font-size: 30px;
+}
+div:hover span{
+    background-color: yellowgreen;
+    /* font-size: x-small; */
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.p2{
+    display: none;   
+    background-color: yellow;
+    padding: 20px;
+    }
+div:hover .p2{
+    display: block;
+    }
+p:first-child {
+    color: brown;
+} 
+
+p i:first-child {
+    color: green;
+    background-color: pink;
+  }
+
+p:first-child i{
+    color: orange;
+    background-color: purple;
+}
+
+.p3::first-line{
+    color: yellow;
+    /* background-color: blue; */
+
+}
+.p3::first-letter{
+    color: red;
+    font-weight: bolder;
+    font-size: 6em;
+    float: left;
+    margin-right: 0em;
+    line-height: 0.85;
+}
+section::before{
+    content: Proverb;
+}
