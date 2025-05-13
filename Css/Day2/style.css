@@ -77,18 +77,33 @@ p:first-child i{
 }
 
 .p3::first-line{
-    color: yellow;
+    color: midnightblue;
     /* background-color: blue; */
 
 }
 .p3::first-letter{
     color: red;
     font-weight: bolder;
-    font-size: 6em;
+    font-size: 3em;
     float: left;
     margin-right: 0em;
     line-height: 0.85;
 }
-section::before{
-    content: Proverb;
+h2::before{
+    content: "Proverb:";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+h2::after{
+    content: "-Day one";
+    font-size: 15px;
+}
+::marker{
+    color: purple;
+    font-size: larger;
+}
+::selection{
+    color: brown;
+    background-color: paleturquoise;
 }
