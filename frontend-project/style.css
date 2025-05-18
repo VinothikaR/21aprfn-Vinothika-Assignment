@@ -6,22 +6,25 @@ body{
     align-items: center;
     height: 100vh;
 }
+.required{
+    color: red;
+}
 .register-container{
     width: 500px;
-    height: 700px;
     padding: 30px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 15ps rgba(0,0,0,0.1);
     margin: auto;
-
 }
+
 .register-container{
     h3,p{
         text-align: center;
         margin-bottom: 20px;
     }
 }
+
 .register-container input{
     width: 100%;
     padding: 10px;
@@ -42,6 +45,82 @@ body{
 .register-container button:hover {
     background: #357abd;
 }
-.required{
-    color: red;
+.Details-container{
+    width: 500px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15ps rgba(0,0,0,0.1);
+    margin: auto;
+}
+.Details-container{
+    h3,p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.Details-container input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.Details-container select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.Details-container button{
+    width: 100%;
+    padding: 10px;
+    background: #4a90e2;
+    color: rgb(242, 238, 238);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Details-container button:hover {
+    background: #357abd;
+}
+.ex{
+    font-size: small;
+    font-family: Arial, sans-serif;
+}
+.login-container{
+    width: 500px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15ps rgba(0,0,0,0.1);
+    margin: auto;
+}
+.login-container{
+    h3,p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.login-container input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.login-container button{
+    width: 100%;
+    padding: 10px;
+    background: #4a90e2;
+    color: rgb(242, 238, 238);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background: #357abd;
 }
