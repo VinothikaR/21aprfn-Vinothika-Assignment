@@ -1,0 +1,34 @@
+h2{
+    color: blueviolet;
+    background-color: rgb(155, 247, 155);
+}
+.p1{
+    color: brown;
+    background-color: aqua;
+    font-family:cursive;
+}
+.p2{
+    color: wheat;
+    background-color: blue;
+}
+.he span{
+    color: red;    
+}
+.he1 span{
+    background-color: brown;
+}
+.he2 span{
+    color: pink;
+}
+.he3 span{
+    background-color: plum;
+}
+.p3{
+    color: yellowgreen;
+}
+.p4{
+    background-color: brown;
+}
+*{
+    color:darkblue;
+}
