@@ -1,10 +1,9 @@
 body{
     font-family: Arial, sans-serif;
-    background: #f0f2f5;
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 .required{
     color: red;
@@ -12,9 +11,8 @@ body{
 .register-container{
     width: 500px;
     padding: 30px;
-    background-color: white;
+    background-color: rgb(244, 244, 244);
     border-radius: 10px;
-    box-shadow: 0 0 15ps rgba(0,0,0,0.1);
     margin: auto;
 }
 
@@ -30,11 +28,24 @@ body{
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid gray;
+}
+textarea.des{
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+input[type="file"] {
+  margin: 10px 0;
 }
 .register-container button{
-    width: 100%;
-    padding: 10px;
+    display: block;              
+    margin: 10px auto; 
+    width: auto;
+    padding: 10px 20px;
     background: #4a90e2;
     color: white;
     border: none;
@@ -48,9 +59,8 @@ body{
 .Details-container{
     width: 500px;
     padding: 30px;
-    background-color: white;
+    background-color: rgb(244, 244, 244);
     border-radius: 10px;
-    box-shadow: 0 0 15ps rgba(0,0,0,0.1);
     margin: auto;
 }
 .Details-container{
@@ -64,7 +74,7 @@ body{
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid gray;
 }
 .Details-container select{
     width: 100%;
@@ -74,8 +84,10 @@ body{
     border: 1px solid #ccc;
 }
 .Details-container button{
-    width: 100%;
-    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    width: auto;
+    padding: 10px 20px;
     background: #4a90e2;
     color: rgb(242, 238, 238);
     border: none;
@@ -93,9 +105,8 @@ body{
 .login-container{
     width: 500px;
     padding: 30px;
-    background-color: white;
+    background-color: rgb(244, 244, 244);
     border-radius: 10px;
-    box-shadow: 0 0 15ps rgba(0,0,0,0.1);
     margin: auto;
 }
 .login-container{
@@ -109,11 +120,13 @@ body{
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid gray;
 }
 .login-container button{
-    width: 100%;
-    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    width: auto;
+    padding: 10px 30px;
     background: #4a90e2;
     color: rgb(242, 238, 238);
     border: none;

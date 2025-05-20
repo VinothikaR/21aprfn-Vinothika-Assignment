@@ -214,7 +214,16 @@
                 <option value="Hybrid">Hybrid</option>
             </select>
             <br><br>
-            <button type="submit">Save and continue to Login</button>
+            <label for="Description">Description:</label>
+            <textarea class="des"  name="Description" id="Description" placeholder="Write about yourself"></textarea>
+            <br><br>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="document">Attach CV:</label>
+                <input type="file" name="document" id="document" accept=".pdf,.docx.doc,.txt">
+                <!-- <button class="upload" type="submit">Upload</button> -->
+                <button type="submit">Save and continue to Login</button>
+            </form>
+                     
         </form>
     </div>
 </body>
