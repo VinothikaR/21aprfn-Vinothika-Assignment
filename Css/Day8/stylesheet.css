@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.transform-container{
+   
+    display: grid;
+    grid-template-areas:
+    "transform transform1"
+    "transform2 transform3";
+}
+@keyframes move-up{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-100px)
+    }
+}
+@keyframes move-right{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100px)
+    }
+}
+@keyframes move-left{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translatex(-100px)
+    }
+}
+@keyframes move-down{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(100px)
+    }
+}
+.transform{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    margin: 10px;
+    animation: move-up 2s infinite alternate;
+}
+.transform1{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    margin: 10px;
+    animation: move-right 2s infinite alternate;
+}
+.transform2{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    margin: 10px;
+    animation: move-left 2s infinite alternate;
+}
+.transform3{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    margin: 10px;
+    animation: move-down 2s infinite alternate;
+}
+
+/* .test {
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
