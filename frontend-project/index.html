@@ -4,62 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Portal</title>
-    <style>
-        .img1{
-            width: 80px;        
-            height: auto;        
-            display: block; 
-            border-radius: 50%;
-            object-fit: cover;    
-        }
-        .a2{
-            position: fixed;
-            top: 1px;
-            right: 1px;
-            font-size: large;
-            
-        }
-        .img2{
-            background-color: rgb(208, 207, 205);
-            width:auto;
-            height: auto;
-            text-align: center;            
-        }
-        h2{
-            text-align: center;
-            color: hsl(0, 5%, 23%);
-        }
-        p{
-            text-align: center;
-            font-size: x-large;
-        }
-        button{
-            display: block;
-            margin: 10px auto;
-            width: auto;
-            padding: 10px 30px;
-            background: #4a90e2;
-            color: rgb(242, 238, 238);
-            border: none;
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        button:hover {
-        background: #357abd;
-        }
-        .fixed{
-            position: fixed;
-            bottom: 0;
-            left: 0;
-        } 
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="createaccount.html" method="get">
         <img class="img1" src="JPlogo.jpg" alt="Logo">
-        <a class="a2" href="login.html" target="_blank">Sign in</a>
         <div class="img2">
             <img src="JPimg1.jpg" alt="job image">
         </div>
@@ -67,6 +16,7 @@
         <h2>Welcome to Job Portal!</h2>
         <p>Create an account or sign in to see your personalised job recommendations.</p>
         <button type="submit"> Get Started </button>
+        <h4>Already Registered? Click <a class="a2" href="login.html" target="_blank">Sign in</a> to continue</h4>
     </form>
     <footer class="fixed">
         &copy Job Portal 2025 | <a class="a1" href="#">Terms</a>
